@@ -35,7 +35,11 @@ p {
         line-height: 1.6;
     }
 }
-
+.contain {
+@media(min-width:768px) {
+    padding:0px 100px 0px 100px;
+}
+}
 a {
     color: white;
     -webkit-transition: all .2s ease-in-out;

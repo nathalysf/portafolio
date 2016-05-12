@@ -30,6 +30,10 @@ p {
       font-size: 14px;
       line-height: 1.6; } }
 
+@media (min-width: 768px) {
+  .contain {
+    padding: 0px 100px 0px 100px; } }
+
 a {
   color: white;
   -webkit-transition: all .2s ease-in-out;
