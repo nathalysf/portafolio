@@ -29,7 +29,18 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 //
-$('.counter-1').counterUp({
-    delay: 10,
-    time: 1000
-});
+
+    $('.home-slider').owlCarousel({
+        responsiveClass: true,
+        autoplay:true,
+        autoplayTimeout:4000,
+        items: 1,
+        loop: true,
+        dots: true,
+        nav: false,
+        navText: [
+            "<i class='lnr lnr-chevron-left'></i>",
+            "<i class='lnr lnr-chevron-right'></i>"
+        ],
+        autoplayHoverPause:true
+    });
