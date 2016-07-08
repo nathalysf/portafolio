@@ -27,3 +27,9 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
   }
 });
+
+//
+$('.counter-1').counterUp({
+    delay: 10,
+    time: 1000
+});
